@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin:0;
     font:15px/1.5 Arial, Helvetica, sans-serif;
-    background-color: gainsboro;
+    background-color: #F7F1F8;
 }
 .container{
     width: 80%;
@@ -14,12 +14,12 @@ ul{
     padding:0;
 }
 header{
-    background-color: #0484AE;
+    background-color: #F4A15D;
     padding-top: 30px;
     min-height: 70px;
 }
 header a{
-    color:white;
+    color:#F7F1F8;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -28,7 +28,7 @@ header li{
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
-    border-right: 2px solid white
+    border-right: 2px solid #F7F1F8;
 }
 header li:last-child{
     border:none;
@@ -39,14 +39,14 @@ header #branding{
 }
 header #branding h1{
     margin:0;
-    color:white;
+    color:#F7F1F8;
 }
 header nav{
     float: right;
     margin-top: 10px;
 }
 header .highlight, header .current a{
-    color:#FFCE00;
+    color:#276D9B;
     font-weight: bold;
 }
 header a:hover{
@@ -65,26 +65,28 @@ header a:hover{
     margin-top:100px;
     font-size: 55px;
     margin-bottom: 10px;
-    color:white;
+    color:#F7F1F8;
 }
 #slideShow button{
     font-size:20px;
-    color:white;
-    background-color: orange;
+    color:#276D9B;
+    background-color: #F4A15D;
     border: none;
     padding:17px 30px;
 }
 #slideShow button:hover{
-    background-color: orange;
+    background-color: #F4A15D;
     font-weight: bold;
 }
 #description{
     text-align: center;
+    color:#276D9B;
+    font-size: 16px;
 }
 #articles{
     margin-top:20px;
-    background-color: #0484AE;
-    color: #ffffff;
+    background-color: #F4A15D;
+    color: #F7F1F8;
 }
 #articles .article{
     float: left;
@@ -96,7 +98,7 @@ header a:hover{
     width: 90px;
 }
 .article h3{
-    color:orange;
+    color:#276D9B;
 }
 footer{
     padding:5px;
