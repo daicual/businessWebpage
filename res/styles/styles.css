@@ -201,3 +201,47 @@ aside ul{
     list-style-type: disc;
 }
 /*FIN PRODUCTOS*/
+
+/*START MEDIA QUERIES*/
+@media(max-width:768px){
+    header #branding, 
+    header nav, 
+    header nav li{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #slideShow h1{
+        margin-top: 75px;
+    }
+    #articles .article{
+        float:none;
+        width: 100%;
+        padding: 0px;
+    }
+    .contact-main .contact-form, .contact-main aside{
+        float:none;
+        width: 100%;
+
+    }
+    .contact-main aside{
+        padding:15px 0px;
+
+    }
+    .contact-main aside h3{
+        margin-left:5%;
+    }
+    .product-text{
+        float:none;
+        width: 100%;
+    }
+    .product aside{
+        float:none;
+        width: 100%;
+    }
+    
+}
+/*END MEDIA QUERIES*/
