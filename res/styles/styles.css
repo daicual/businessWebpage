@@ -9,7 +9,7 @@ body{
     margin:auto;
     overflow:hidden;
 }
-ul{
+header ul{
     margin:0;
     padding:0;
 }
@@ -168,3 +168,33 @@ footer{
     list-style: none;
 }
 /*FIN CONTACTO*/
+/*INICIO PRODUCTOS*/
+.product{
+    margin-top: 10px;
+}
+.product-text{
+    width: 60%;
+    float:left;
+}
+.product-text h2{
+    color:orange;
+}
+.product-text h4{
+    color:#294B8D;
+}
+aside{
+    float: right;
+    border-radius: 3px;
+    width: 30%;
+    color:white;
+    background-color: #294B8D;
+    padding: 10px;
+    margin-right: 5%;
+}
+aside h3{
+    color: #D49A2D;
+}
+aside ul{
+    list-style-type: disc;
+}
+/*FIN PRODUCTOS*/
