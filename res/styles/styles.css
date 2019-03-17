@@ -9,7 +9,7 @@ body{
     margin:auto;
     overflow:hidden;
 }
-ul{
+header ul{
     margin:0;
     padding:0;
 }
@@ -40,6 +40,9 @@ header #branding{
 header #branding h1{
     margin:0;
     color:#F7F1F8;
+}
+header #branding a{
+    margin:0;
 }
 header nav{
     float: right;
@@ -73,6 +76,7 @@ header a:hover{
     background-color: #294B8D;
     border: none;
     padding:17px 30px;
+    border-radius: 3px;
 }
 #slideShow button:hover{
     background-color: #294B8D;
@@ -106,3 +110,91 @@ footer{
     margin-top:5px;
     text-align: center;
 }
+/*INICIO CONTACTO*/
+.contact-main{
+    margin-top: 10px;
+}
+.contact-form{
+    float: left;
+    margin-left:15%;
+    
+}
+.contact-main form{
+    width: auto;
+}
+.contact-main form *{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    
+}
+.contact-form h2{
+    color: #294B8D;
+}
+.contact-form form input,textarea,select{
+    border: 1px solid #A6B0C3;
+    border-radius: 3px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+.contact-form form input:focus,textarea:focus,select:focus{
+    border-color:#294B8D;
+}
+.contact-form textarea{
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-form button{
+    background-color: #D49A2D;
+    color: white;
+    border:none;
+    font-size: 20px;
+    padding:5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.contact-main aside{
+    float: right;
+    border-radius: 3px;
+    width: 30%;
+    color:white;
+    background-color: #294B8D;
+    padding: 10px;
+    margin-right: 5%;
+}
+.contact-main aside h3{
+    color: #D49A2D;
+}
+.contact-main aside ul{
+    list-style: none;
+}
+/*FIN CONTACTO*/
+/*INICIO PRODUCTOS*/
+.product{
+    margin-top: 10px;
+}
+.product-text{
+    width: 60%;
+    float:left;
+}
+.product-text h2{
+    color:orange;
+}
+.product-text h4{
+    color:#294B8D;
+}
+aside{
+    float: right;
+    border-radius: 3px;
+    width: 30%;
+    color:white;
+    background-color: #294B8D;
+    padding: 10px;
+    margin-right: 5%;
+}
+aside h3{
+    color: #D49A2D;
+}
+aside ul{
+    list-style-type: disc;
+}
+/*FIN PRODUCTOS*/
