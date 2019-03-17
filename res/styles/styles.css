@@ -41,6 +41,9 @@ header #branding h1{
     margin:0;
     color:#F7F1F8;
 }
+header #branding a{
+    margin:0;
+}
 header nav{
     float: right;
     margin-top: 10px;
