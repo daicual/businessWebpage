@@ -14,7 +14,7 @@ ul{
     padding:0;
 }
 header{
-    background-color: #F4A15D;
+    background-color: #294B8D;
     padding-top: 30px;
     min-height: 70px;
 }
@@ -46,15 +46,15 @@ header nav{
     margin-top: 10px;
 }
 header .highlight, header .current a{
-    color:#276D9B;
+    color:#D49A2D;
     font-weight: bold;
 }
 header a:hover{
-    color: #3EA4C6;
+    color: #FFD585;
 }
 
 #slideShow{
-    min-height: 400px;
+    min-height: 500px;
     background: url('../images/slide-1.jpg') no-repeat 0px 0px;
     text-align: center;
     /*border:1px solid black;*/
@@ -62,31 +62,32 @@ header a:hover{
     margin:auto;
 }
 #slideShow h1{
-    margin-top:100px;
+    margin-top:150px;
     font-size: 55px;
     margin-bottom: 10px;
-    color:#F7F1F8;
+    color:#ffffff;
 }
 #slideShow button{
     font-size:20px;
-    color:#276D9B;
-    background-color: #F4A15D;
+    color:#D49A2D;
+    background-color: #294B8D;
     border: none;
     padding:17px 30px;
 }
 #slideShow button:hover{
-    background-color: #F4A15D;
+    background-color: #294B8D;
     font-weight: bold;
 }
 #description{
     text-align: center;
-    color:#276D9B;
+    color:#294B8D;
     font-size: 16px;
+    margin: 50px 0px;
 }
 #articles{
     margin-top:20px;
-    background-color: #F4A15D;
-    color: #F7F1F8;
+    background-color: #294B8D;
+    color: #ffffff;
 }
 #articles .article{
     float: left;
@@ -98,7 +99,7 @@ header a:hover{
     width: 90px;
 }
 .article h3{
-    color:#276D9B;
+    color:#D49A2D;
 }
 footer{
     padding:5px;
