@@ -54,7 +54,7 @@ header a:hover{
 }
 
 #slideShow{
-    min-height: 400px;
+    min-height: 500px;
     background: url('../images/slide-1.jpg') no-repeat 0px 0px;
     text-align: center;
     /*border:1px solid black;*/
@@ -62,7 +62,7 @@ header a:hover{
     margin:auto;
 }
 #slideShow h1{
-    margin-top:100px;
+    margin-top:150px;
     font-size: 55px;
     margin-bottom: 10px;
     color:#ffffff;
@@ -82,6 +82,7 @@ header a:hover{
     text-align: center;
     color:#294B8D;
     font-size: 16px;
+    margin: 50px 0px;
 }
 #articles{
     margin-top:20px;
