@@ -1,3 +1,4 @@
+/*START GLOBAL*/
 body{
     padding: 0;
     margin:0;
@@ -55,7 +56,13 @@ header .highlight, header .current a{
 header a:hover{
     color: #FFD585;
 }
-
+footer{
+    padding:5px;
+    margin-top:5px;
+    text-align: center;
+}
+/*END GLOBAL*/
+/*START INDEX*/
 #slideShow{
     min-height: 500px;
     background: url('../images/slide-1.jpg') no-repeat 0px 0px;
@@ -105,11 +112,7 @@ header a:hover{
 .article h3{
     color:#D49A2D;
 }
-footer{
-    padding:5px;
-    margin-top:5px;
-    text-align: center;
-}
+/*END INDEX*/
 /*INICIO CONTACTO*/
 .contact-main{
     margin-top: 10px;
