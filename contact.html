@@ -11,7 +11,9 @@
     <header>
         <div class="container">
             <div id="branding">
-                <a href="index.html"><h1><span class="highlight">ARCADIA</span> ENERGÍAS RENOVABLES</h1></a>
+                <a href="index.html">
+                    <h1><span class="highlight">ARCADIA</span> ENERGÍAS RENOVABLES</h1>
+                </a>
             </div>
             <nav>
                 <ul>
@@ -31,42 +33,34 @@
             </nav>
         </div>
     </header>
-    <section id="slideShow">
+    <section class="contact-main">
         <div class="container">
-            <h1>Cuidamos del medio ambiente.</h1>
-            <button  onclick="window.open('./aux_presentation_video.html', '_blank')">DESCUBRE CÓMO</button>
-        </div>
-    </section>
-    <section id="description">
-        <div class="container">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto facere quam excepturi corrupti
-                adipisci delectus incidunt aperiam error repellendus nam earum voluptates sequi suscipit modi rem magnam
-                quia, quae aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nisi eligendi! Consequatur perferendis cumque voluptates sequi? Ducimus similique quas iusto porro, voluptate recusandae voluptates, expedita excepturi in, accusantium aliquid veritatis.</p>
-        </div>
-    </section>
-    <section id="articles">
-        <div class="container">
-            <div class="article">
-                <img src="./res/images/icon.png">
-                <h3>Alta rentabilidad</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa perspiciatis debitis
-                    laborum amet vero soluta optio iure incidunt. Fugiat, obcaecati ab sit voluptatum in officia dicta
-                    exercitationem quod qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis esse tempora voluptatum officia harum non culpa repellat. Vel esse dignissimos vitae est optio assumenda aliquid labore maxime laudantium ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut deserunt aliquid, autem aspernatur totam corporis hic fugit modi obcaecati porro harum id nostrum eos, illum sequi at sapiente ipsa! Maiores!</p>
-            </div>
-            <div class="article">
-                <img src="./res/images/icon.png">
-                <h3>Mantenimiento 24/7</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa perspiciatis debitis
-                    laborum amet vero soluta optio iure incidunt. Fugiat, obcaecati ab sit voluptatum in officia dicta
-                    exercitationem quod qui Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur fuga recusandae facilis laudantium nisi facere quod magnam quidem tempore? Illum exercitationem dolorum animi quaerat quia magni, unde molestiae dolor. Nihil! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quaerat odit voluptates adipisci vitae sapiente sint commodi, autem ullam debitis repellendus cumque in expedita cupiditate hic praesentium laboriosam laudantium rem.</p>
-            </div>
-            <div class="article">
-                <img src="./res/images/icon.png">
-                <h3>0 riesgos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa perspiciatis debitis
-                    laborum amet vero soluta optio iure incidunt. Fugiat, obcaecati ab sit voluptatum in officia dicta
-                    exercitationem quod qui. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi illo quaerat molestiae assumenda, laborum sit quia voluptatem delectus molestias placeat, accusantium architecto nostrum ipsa. Amet quae consequuntur cum eos eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellat dolorum ullam amet itaque. Nam et qui animi vitae ducimus tempore numquam impedit sed non nobis fuga, tenetur deleniti illum.</p>
-            </div>
+            <section class="contact-form">
+                <form>
+                    <h2>Contacte con nosotros.</h2>
+                    <input type="text" placeholder="¿Quién eres?" required>
+                    <br>
+                    <input type="email" placeholder="E-mail" required>
+                    <br>
+                    <select required>
+                        <option selected disabled>¿Empresa o particular?</option>
+                        <option value="company">Empresa</option>
+                        <option value="particular">Particular</option>
+                    </select>
+                    <br>
+                    <textarea rows="7" cols="40" placeholder="Cuéntanos algo sobre tu proyecto" required></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            <aside>
+                <h3>Información adicional</h3>
+                <ul>
+                    <li>Teléfono: +34 666 666 666</li>
+                    <li>E-mail: arcadia_contacto@arcadia.com</li>
+                    <li>Dirección: Parque Tecnológico Imaginación, Edificio 803, Laredo (Cantabria)</li>
+                </ul>
+            </aside>
         </div>
     </section>
     <footer>
